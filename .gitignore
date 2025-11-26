@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env fajlovi (vrlo važno!)
+*.env
+server/.env
+client/.env
+
+# Logs
+logs
+*.log
+
+# Build output
+client/dist/
+server/build/
+
+# Docker
+postgres_data/
+
+# OS files
+.DS_Store
+Thumbs.db
